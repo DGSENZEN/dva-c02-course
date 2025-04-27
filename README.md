@@ -1,6 +1,6 @@
 # DVA-C02 Course
 
-A 5-week, 20-hour blended course designed for anyone to master AWS Developer Associate concepts through hands-on labs, real-world case studies, and targeted readings. Students will leave with both the credential and the practical skills necessary to excel as cloud developers.
+An approximate 5-week, 20-hour blended course designed for anyone to master AWS Developer Associate concepts through hands-on labs, real-world case studies, and targeted readings. Students will leave with both the credential and the practical skills necessary to excel as cloud developers.
 
 ---
 
@@ -18,9 +18,9 @@ A 5-week, 20-hour blended course designed for anyone to master AWS Developer Ass
 ---
 
 ## Course Overview
-- **Duration:** 5 weeks (20 hours total)
+- **Duration:** 5 weeks (20 hours total approx.)
 - **Format:** Blended micro-learning + live sessions + self-paced labs + capstone
-- **Delivery:** Twice-weekly 1-hour live sessions; 1–2 hours of self-study/labs
+- **Delivery:** Twice-weekly 1-hour live sessions; 1–2 hours of self-study/labs (approximately)
 - **Goal:** Pass AWS Certified Developer – Associate (DVA‑C02) and gain hands-on cloud skills
 
 ---
@@ -89,7 +89,7 @@ By the end of this course, students will be able to:
 - **Session 2B (1 h live + 0.5 h quiz)**
   - Pre-work: Newman Ch 9 (pp 211–240)
   - Topics: envelope encryption (KMS), ACM with API Gateway
-  - Quiz: 5 questions on authz & encryption patterns
+  - Quiz: 5 questions on auth & encryption patterns
 
 ### Week 3: Module 3 – Deployment
 - **Session 3A (1 h live + 1 h lab)**
@@ -116,16 +116,17 @@ By the end of this course, students will be able to:
   - Course retrospective & next steps
 
 ---
-
 ## Lab Environment & Tools
 - **Docker Compose** with LocalStack services (Lambda, API Gateway, DynamoDB, SNS, SQS, IAM, CloudWatch)
 - **awslocal** CLI wrapper for AWS CLI commands
 - **GitHub Classroom** assignments & GitHub Actions for CI
-- **Jupyter Notebooks** for guided Moto-based unit tests (Python)
-
 ---
 
 ## Mandatory Readings
+
+Note: Some of these are just gross chapter coverings, just to make sure no info is extra or less, within the week we'll have specific page ranges to read from.
+
+
 | Resource                           | Chapters / Sections                | Pages       |
 |------------------------------------|------------------------------------|-------------|
 | Kleppmann, *Designing Data‑Intensive Applications* | Ch 1 & 2, Ch 5 & 6                   | 26–116, 198–263 |
