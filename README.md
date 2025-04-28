@@ -1,7 +1,3 @@
-Okay, let's rework the syllabus to integrate the Katas and Labs we've designed, explicitly mention the case studies, and ensure it flows logically towards the DVA-C02 goals.
-
----
-
 # DVA-C02 Course: Cloud Developer Accelerator
 
 **An approximate 5-week, 20-hour blended course designed for developers to master AWS Developer Associate concepts through hands-on Katas & Labs, real-world case studies, and targeted readings. Students will leave with both the credential and the practical skills necessary to excel as cloud developers.**
