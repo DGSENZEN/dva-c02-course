@@ -63,7 +63,7 @@ By the end of this course, students will be able to:
 
 ### Week 0: Onboarding & Foundations
 *   **Live (1 h):**
-    *   Course logistics, GitHub repo, Slack.
+    *   Course logistics, GitHub repo.
     *   Clean Code essentials (Martin Ch 1-2).
     *   DevOps “Three Ways” (*Phoenix Project* Ch 1-2).
     *   **Guided Exercise:** Walkthrough/Demo of Kata 1 (Clean Code Refactoring).
