@@ -2,7 +2,6 @@
 
 **An approximate 5-week, 20-hour blended course designed for developers to master AWS Developer Associate concepts through hands-on Katas & Labs, real-world case studies, and targeted readings. Students will leave with both the credential and the practical skills necessary to excel as cloud developers.**
 
----
 
 ## 📋 Table of Contents
 1.  [Course Overview](#course-overview)
@@ -15,7 +14,6 @@
 8.  [Optional Readings](#optional-readings)
 9.  [Repository Structure](#repository-structure)
 
----
 
 ## Course Overview
 *   **Duration:** 5 weeks (approx. 20 hours total: 10h live + 10h self-study/labs)
@@ -23,7 +21,6 @@
 *   **Delivery:** Twice-weekly 1-hour live sessions; ~2 hours of self-study/labs per week
 *   **Goal:** Pass AWS Certified Developer – Associate (DVA‑C02) and gain hands-on cloud development skills using Python, LocalStack, and AWS services.
 
----
 
 ## Learning Competencies
 By the end of this course, students will be able to:
@@ -47,7 +44,7 @@ By the end of this course, students will be able to:
 *   Docker installed locally for LocalStack labs.
 *   Python 3, `pip`, `boto3`, and `pytest` installed locally.
 
----
+
 
 ## Course Structure
 
@@ -60,7 +57,7 @@ By the end of this course, students will be able to:
 | 4    | Module 4A & 4B        | Observability, Optimization, Stability       | Kata 5 (Logging), Lab 6 (Metrics, Alarms, X-Ray, Stability) |
 | 5    | Capstone & Review     | Project Showcase, Final Mock Exam, 3rd Way | Capstone Project Implementation & Course Retrospective       |
 
----
+
 
 ## Week-by-Week Outline
 
@@ -159,7 +156,6 @@ By the end of this course, students will be able to:
 *   **`pytest`** for running automated lab checks
 *   **Git & GitHub** for version control and collaboration
 
----
 
 ## Mandatory Readings
 
@@ -178,7 +174,6 @@ By the end of this course, students will be able to:
 | SRE (Google), *Site Reliability Engineering* | 4                              | Ch 4 (SLOs), Ch 6 (Monitoring)              |
 | Nygard, *Release It!*                        | 4                              | Ch 2 (Stability Patterns)                   |
 
----
 
 ## Optional Readings
 *   Humble & Farley, *Continuous Delivery* – Pipeline & automation details
@@ -186,4 +181,3 @@ By the end of this course, students will be able to:
 *   Google SRE Team, *Site Reliability Workbook* – Exercises on SLOs & monitoring
 *   DORA State of DevOps Reports – Key capabilities & metrics
 
----
