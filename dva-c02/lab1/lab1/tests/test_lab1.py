@@ -11,9 +11,9 @@ LAMBDA_FUNCTION_NAME = "InventoryStatusChecker"
 AWS_ENDPOINT_URL = os.environ.get("AWS_ENDPOINT_URL", "http://localhost:4566")
 KNOWN_LOW_STOCK_PART_ID = "abc-123"
 KNOWN_NORMAL_STOCK_PART_ID = "xyz-789"
-KNOWN_UNKNOWN_PART_ID = "unknown-part-001"  # Should use default stock
-EXPECTED_LOW_STOCK_THRESHOLD = 10  # Based on Lab 1 description
-DEFAULT_STOCK_LEVEL = 25  # Based on Lab 1 description
+KNOWN_UNKNOWN_PART_ID = "unknown-part-001" 
+EXPECTED_LOW_STOCK_THRESHOLD = 10 
+DEFAULT_STOCK_LEVEL = 25 
 
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
@@ -172,7 +172,7 @@ def test_missing_part_id_error(lambda_client):
     logger.info("Missing part ID error test passed.")
 
 
-# Optional Test (Not marked as main objective)
+# Optional Test
 def test_unknown_part_id_default_stock(lambda_client):
     """Tests invocation with an unknown part ID, expecting default stock level."""
     payload = {"part_id": KNOWN_UNKNOWN_PART_ID}
