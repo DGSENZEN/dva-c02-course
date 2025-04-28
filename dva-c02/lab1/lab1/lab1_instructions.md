@@ -52,7 +52,7 @@ Before starting this lab, ensure you have the following installed and configured
          - "/var/run/docker.sock:/var/run/docker.sock"
    ```
 
-3. **Start LocalStack:** Make sure you are inside the `aws-dev-lab1-impl` directory in your terminal and run:
+3. **Start LocalStack:** Make sure you are inside the `aws-dev-lab1` directory in your terminal and run:
 
    ```bash
    docker compose up -d
@@ -73,7 +73,7 @@ Before starting this lab, ensure you have the following installed and configured
 
 ### Step 1: Create the Lambda Function Code
 
-1. Inside your `aws-dev-lab1-impl` directory, create a new file named `inventory_status_lambda.py`.
+1. Inside your `aws-dev-lab1` directory, create a new file named `inventory_status_lambda.py`.
 2. **Your Task:** Write the Python code for the Lambda function in this file. The function must meet the following requirements:
    - **Import necessary libraries** (`json`, `logging`).
    - **Configure basic logging.**
