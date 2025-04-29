@@ -50,12 +50,12 @@ By the end of this course, students will be able to:
 
 | Week | Live Sessions (2x 1h) | Topics                                       | Lab / Self-Study (~2h)                                       |
 | :--- | :-------------------- | :------------------------------------------- | :----------------------------------------------------------- |
-| 0    | Onboarding            | Course Intro, Clean Code, DevOps 3 Ways      | Env Setup (Docker, LocalStack, Python tools), Kata 1, Lab 1 (Clean Lambda) |
+| 0    | Onboarding            | Course Intro   | Env Setup (Docker, LocalStack, Python tools), Kata 1, Lab 1 (Clean Lambda) |
 | 1    | Module 1A & 1B        | Data Models, DynamoDB CRUD, Event Patterns   | Kata 2 (DynamoDB), Lab 2 (Event Handling: SNS/SQS)           |
 | 2    | Module 2A & 2B        | Security: IAM, Secrets, Encryption Concepts  | Kata 3 (Secrets), Lab 3 (IAM Role & Secrets Integration)     |
 | 3    | Module 3A & 3B        | Deployment: IaC (SAM), CI/CD, Safe Deploys   | Lab 4 (SAM Template), Kata 4 (Alias Deploy), Lab 5 (Canary)  |
 | 4    | Module 4A & 4B        | Observability, Optimization, Stability       | Kata 5 (Logging), Lab 6 (Metrics, Alarms, X-Ray, Stability) |
-| 5    | Capstone & Review     | Project Showcase, Final Mock Exam, 3rd Way | Capstone Project Implementation & Course Retrospective       |
+| 5    | Capstone & Review     | Project Showcase, Final Mock Exam, | Capstone Project Implementation & Course Retrospective       |
 
 
 
