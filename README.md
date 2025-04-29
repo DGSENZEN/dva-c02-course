@@ -64,8 +64,6 @@ By the end of this course, students will be able to:
 ### Week 0: Onboarding & Foundations
 *   **Live (1 h):**
     *   Course logistics, GitHub repo.
-    *   Clean Code essentials (Martin Ch 1-2).
-    *   DevOps “Three Ways” (*Phoenix Project* Ch 1-2).
     *   **Guided Exercise:** Walkthrough/Demo of Kata 1 (Clean Code Refactoring).
 *   **Lab / Self-Study (~2 h):**
     *   **Environment Setup:** Install Docker, Python 3, `pip`, `boto3`, `pytest`. Clone repo. Set up `awslocal` alias. Start LocalStack via `docker compose`.
@@ -92,7 +90,7 @@ By the end of this course, students will be able to:
 
 ### Week 2: Module 2 – Security
 *   **Session 2A (1 h live):**
-    *   **Pre-work:** AWS Well-Architected Framework, Security Pillar (pp 1–8; 15–17). 12-Factor App (Factor 3 - Config).
+    *   **Pre-work:** AWS Well-Architected Framework, Security Pillar
     *   **Topics:** IAM Principles (Least Privilege), Roles vs Users, Policies, Secure Configuration & Secrets Management (Secrets Manager vs Parameter Store).
     *   **Case Study:** Protecting Financial Service Credentials (e.g., storing/rotating Stripe API keys securely).
 *   **Lab / Self-Study (~1 h):**
@@ -108,7 +106,7 @@ By the end of this course, students will be able to:
 
 ### Week 3: Module 3 – Deployment
 *   **Session 3A (1 h live):**
-    *   **Pre-work:** *Phoenix Project* Ch 4–7 (Pipeline focus). Review AWS Docs: SAM Introduction. *DevOps Handbook* Part III (CI Practices).
+    *   **Pre-work:** Review AWS Docs: SAM Introduction. *DevOps Handbook* Part III (CI Practices).
     *   **Topics:** Infrastructure as Code (IaC) benefits, AWS SAM (`template.yaml`, `sam build`, `sam deploy`), Basic CI/CD pipeline stages.
     *   **Case Study:** Automating E-commerce Platform Updates (e.g., Etsy's deployment pipeline enabling frequent, reliable releases).
 *   **Lab / Self-Study (~1 h):**
@@ -124,14 +122,14 @@ By the end of this course, students will be able to:
 
 ### Week 4: Module 4 – Troubleshooting & Optimization
 *   **Session 4A (1 h live):**
-    *   **Pre-work:** SRE Ch 4 (SLOs) & Ch 6 (Monitoring). 12-Factor App (Factor 9 - Logs). Review AWS Docs: CloudWatch & X-Ray Overviews.
+    *   **Pre-work:** SRE Ch 4 (SLOs) & Ch 6 (Monitoring). Review AWS Docs: CloudWatch & X-Ray Overviews.
     *   **Topics:** Observability Pillars (Logs, Metrics, Traces), SLIs/SLOs, CloudWatch Logs (Structured Logging), Metrics (Standard vs Custom), Alarms, AWS X-Ray basics.
     *   **Case Study:** Debugging Performance in a Ride-Sharing App (e.g., Uber/Lyft - tracing requests across microservices to find bottlenecks).
 *   **Lab / Self-Study (~1 h):**
     *   **Kata 5:** Modify the Lab 1 Lambda to output structured JSON logs.
     *   **Lab 6 (Part 1 - Observability):** Add a custom CloudWatch metric (`put_metric_data`) for "Orders Processed" to a relevant Lambda. Create a CloudWatch Alarm (`put_metric_alarm`) that triggers if Lambda errors (standard metric) exceed a threshold. (Optional: Add basic X-Ray SDK instrumentation to the Lambda). View logs, metrics (conceptual graph), and alarm state via `awslocal`.
 *   **Session 4B (1 h live):**
-    *   **Pre-work:** *Release It!* Ch 2 (Stability Patterns). Review AWS Lambda Performance Tuning guides. 12-Factor App (Factor 8 - Dev/Prod Parity).
+    *   **Pre-work:** *Release It!* Ch 2 (Stability Patterns). Review AWS Lambda Performance Tuning guides.
     *   **Topics:** Lambda Performance (Cold Starts, Memory Tuning), Provisioned Concurrency, Stability Patterns (Circuit Breaker concept), Caching Strategies (briefly), Dev/Prod Parity importance.
     *   **Case Study:** Handling Black Friday Traffic Spikes (e.g., Amazon retail - scaling, caching, preventing cascading failures).
 *   **Lab / Self-Study (~1 h):**
@@ -161,18 +159,18 @@ By the end of this course, students will be able to:
 
 *(Specific page ranges or sections may be assigned weekly)*
 
-| Resource                                     | Relevant Weeks (Primary Focus) | Chapters / Sections Covered (Approx)        |
-| :------------------------------------------- | :----------------------------- | :------------------------------------------ |
-| Martin, *Clean Code*                         | 0                              | Ch 1–2                                      |
-| Kim et al., *The Phoenix Project*            | 0, 3                           | Ch 1–7 (Conceptual)                         |
-| Kleppmann, *Designing Data‑Intensive Apps*   | 1                              | Ch 1 & 2, Ch 5 & 6 (Selections)             |
-| Newman, *Building Microservices*             | 1, 2                           | Ch 1, 4, 9                                  |
-| AWS Well-Architected Framework               | 2                              | Security Pillar Intro & Design Principles   |
-| Wiggins, *The Twelve-Factor App*             | 2, 4                           | Factor 3 (Config), 4 (Backing), 8 (Parity), 9 (Logs) |
-| *The DevOps Handbook*                        | 3, 5                           | Part III (CI), Part IV (Feedback), Part V (Culture) |
-| Forsgren et al., *Accelerate*                | 3, 5                           | Ch 4 (Practices), Ch 5 (Architecture), Ch 10 (Culture) |
-| SRE (Google), *Site Reliability Engineering* | 4                              | Ch 4 (SLOs), Ch 6 (Monitoring)              |
-| Nygard, *Release It!*                        | 4                              | Ch 2 (Stability Patterns)                   |
+| Resource                                     | Relevant Weeks (Primary Focus) |
+| :------------------------------------------- | :----------------------------- |
+| Martin, *Clean Code*                         | 0                              |
+| Kim et al., *The Phoenix Project*            | 0, 3                           |
+| Kleppmann, *Designing Data‑Intensive Apps*   | 1                              |
+| Newman, *Building Microservices*             | 1, 2                           |
+| AWS Well-Architected Framework               | 2                              |
+| Wiggins, *The Twelve-Factor App*             | 2, 4                           |
+| *The DevOps Handbook*                        | 3, 5                           |
+| Forsgren et al., *Accelerate*                | 3, 5                           |
+| SRE (Google), *Site Reliability Engineering* | 4                              |
+| Nygard, *Release It!*                        | 4                              | 
 
 
 ## Optional Readings
